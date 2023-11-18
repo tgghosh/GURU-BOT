@@ -51,7 +51,7 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 global.botname = '𝄟✮͢🦋⃟≛⃝Dûßtø(Töñmöy)❥𝄟✮⃝♥️'
-global.premium = 'true'
+global.premium = 'false'
 global.packname = '𝄟✮͢🦋⃟≛⃝Dûßtø(Töñmöy)❥𝄟✮⃝♥️' 
 global.author = '@𝄟✮͢🦋⃟≛⃝Dûßtø(Töñmöy)❥𝄟✮⃝♥️' 
 global.menuvid = 'https://IMG-20231105-WA0251.jpg'
