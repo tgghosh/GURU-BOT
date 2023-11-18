@@ -8,7 +8,7 @@ import axios from 'axios'
 
 global.owner = [
   ['917029916612', '𝄟✮͢🦋⃟≛⃝Dûßtø(Töñmöy)❥𝄟✮⃝♥️', true],
-  ['917029916612', 'Ash', true], 
+  ['917029916612', '𝄟✮͢🦋⃟≛⃝Dûßtø(Töñmöy)❥𝄟✮⃝♥️', true], 
   [''] 
 ] //Number of owners
 
@@ -53,7 +53,7 @@ global.APIKeys = { // APIKey Here
 global.botname = '𝄟✮͢🦋⃟≛⃝Dûßtø(Töñmöy)❥𝄟✮⃝♥️'
 global.premium = 'true'
 global.packname = '𝄟✮͢🦋⃟≛⃝Dûßtø(Töñmöy)❥𝄟✮⃝♥️' 
-global.author = '@Asliguru' 
+global.author = '@𝄟✮͢🦋⃟≛⃝Dûßtø(Töñmöy)❥𝄟✮⃝♥️' 
 global.menuvid = 'https://IMG-20231105-WA0251.jpg'
 global.igfg = '▢ Follow on Instagram\nhttps://instagram.com/official_tonmoy07?igshid=MTM3bWN0NDJqYWd3eQ==\n' 
 global.dygp = 'https://chat.whatsapp.com/DYxrWrSIMgtEXepmLs723x'
