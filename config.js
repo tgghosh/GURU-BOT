@@ -60,8 +60,8 @@ global.dygp = 'https://chat.whatsapp.com/DYxrWrSIMgtEXepmLs723x'
 global.fgsc = 'https://github.com/Guru322/GURU-BOT' 
 global.fgyt = 'https://youtube.com/@Asliguru'
 global.fgpyp = 'https://youtube.com/@Asliguru'
-global.fglog = 'https://raw.githubusercontent.com/Guru322/api/Guru/guru.jpg' 
-global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
+global.fglog = 'https://raw.githubusercontent.com/tgghosh/api/tgghosh/tgghosh.jpg' 
+global.thumb = fs.readFileSync('./Assets/tgghosh logo.jpg')
 
 
 global.wait = '*⌛ _Charging..._*\n*▰▰▰▱▱▱▱▱*'
