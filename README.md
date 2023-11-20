@@ -2,7 +2,7 @@
 <p align="center">  
   <a href="https://youtu.be/WcA7GZuaN0A">
     <img alt="Guru" height="300" src="https://cdn.IMG-20231105-WA0251.jpg">
-    <h1 align="center">GURU-BOT 2.O</h1>
+    <h1 align="center">𝄟✮͢🦋⃟≛⃝Dûßtø(Töñmöy)❥𝄟✮⃝♥️</h1>
   </a>
 </p>
 <p align="center">
