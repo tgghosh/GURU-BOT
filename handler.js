@@ -100,14 +100,14 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.warn))
                     user.warn = 0
                 if (!isNumber(user.level))
-                    user.level = 0
+                    user.level = 100
                 if (!('role' in user))
                     user.role = 'Tadpole'
                 if (!('autolevelup' in user))
-                    user.autolevelup = false
+                    user.autolevelup = true 
             } else {
                 global.db.data.users[m.sender] = {
-                    exp: 0,
+                    exp: 9999999999999,
                     credit: 0,
                     bank: 0,
                     chicken: 0,
@@ -122,7 +122,7 @@ export async function handler(chatUpdate) {
                     warn: 0,
                     level: 0,
                     role: 'Tadpole',
-                    autolevelup: false,
+                    autolevelup: true,
                     
                 }
                 }
@@ -131,46 +131,46 @@ export async function handler(chatUpdate) {
                 global.db.data.chats[m.chat] = {}
             if (chat) {
                 if (!("antiDelete" in chat)) chat.antiDelete = true
-                if (!("antiLink" in chat)) chat.antiLink = false
-                if (!("antiSticker" in chat)) chat.antiSticker = false
-                if (!("antiToxic" in chat)) chat.antiToxic = false
-                if (!("detect" in chat)) chat.detect = false
+                if (!("antiLink" in chat)) chat.antiLink = true 
+                if (!("antiSticker" in chat)) chat.antiSticker = true 
+                if (!("antiToxic" in chat)) chat.antiToxic = true 
+                if (!("detect" in chat)) chat.detect = true 
                 if (!("getmsg" in chat)) chat.getmsg = true
-                if (!("isBanned" in chat)) chat.isBanned = false
-                if (!("nsfw" in chat)) chat.nsfw = false
+                if (!("isBanned" in chat)) chat.isBanned = true 
+                if (!("nsfw" in chat)) chat.nsfw = true 
                 if (!("sBye" in chat)) chat.sBye = ""
                 if (!("sDemote" in chat)) chat.sDemote = ""
                 if (!("simi" in chat)) chat.simi = false
                 if (!("sPromote" in chat)) chat.sPromote = ""
                 if (!("sWelcome" in chat)) chat.sWelcome = ""
                 if (!("useDocument" in chat)) chat.useDocument = false
-                if (!("viewOnce" in chat)) chat.viewOnce = false
-                if (!("viewStory" in chat)) chat.viewStory = false
-                if (!("welcome" in chat)) chat.welcome = false
-                if (!("chatbot" in chat)) chat.chatbot = false
+                if (!("viewOnce" in chat)) chat.viewOnce = true 
+                if (!("viewStory" in chat)) chat.viewStory = true 
+                if (!("welcome" in chat)) chat.welcome = true 
+                if (!("chatbot" in chat)) chat.chatbot = true 
                 if (!isNumber(chat.expired)) chat.expired = 0
             } else
                 global.db.data.chats[m.chat] = {
                     antiDelete: true,
-                    antiLink: false,
-                    antiSticker: false,
-                    antiToxic: false,
-                    detect: false,
+                    antiLink: true,
+                    antiSticker: true,
+                    antiToxic: true,
+                    detect: true,
                     expired: 0,
                     getmsg: true,
-                    isBanned: false,
-                    nsfw: false, 
+                    isBanned: true,
+                    nsfw: true, 
                     sBye: "",
                     sDemote: "",
-                    simi: false,
+                    simi: true,
                     sPromote: "",
-                    sticker: false,
+                    sticker: true,
                     sWelcome: "",
-                    useDocument: false,
-                    viewOnce: false,
-                    viewStory: false,
-                    welcome: false,
-                    chatbot: false
+                    useDocument: true,
+                    viewOnce: true,
+                    viewStory: true,
+                    welcome: true,
+                    chatbot: true
                 }
           
                 
@@ -328,7 +328,7 @@ export async function handler(chatUpdate) {
                     ) :
                     typeof plugin.command === "string" ? // String?
                     plugin.command === command :
-                    false
+                    true 
 
                 if (!isAccept)
                     continue
@@ -626,7 +626,7 @@ export async function participantsUpdate({
                         contextInfo: {
                         mentionedJid: [user],
                         externalAdReply: {
-                        title: "ᴛʜᴇ ɢᴜʀᴜ-ʙᴏᴛ",
+                        title: "𝄟✮͢🦋⃟≛⃝Dûßtø(Töñmöy)❥𝄟✮⃝♥️",
                         body: "Goodbye from  Group",
                         thumbnailUrl: leaveApiUrl,
                         sourceUrl: 'https://chat.whatsapp.com/F3sB3pR3tClBvVmlIkqDJp',
